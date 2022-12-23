@@ -59,19 +59,19 @@ function App() {
       <div className="addMovie">
         <form onSubmit={handleNewMovieSubmit}>
           <label>
-            Title :
+            Title <br />
              <input type="text" name="title" value={newMovie.title} onChange={handleNewMovieChange} />
           </label>
           <label>
-            Poster:
+            Poster <br />
             <input type="text" name="posterUrl" value={newMovie.posterUrl} onChange={handleNewMovieChange} />
           </label>
           <label>
-            Description :
+            Description <br />
             <input type="text" name="description" value={newMovie.description} onChange={handleNewMovieChange} />
           </label>
           <label>
-            Rating :
+            Rating <br />
             <input type="text" name="rating" value={newMovie.rating} onChange={handleNewMovieChange} />
           </label>
           <button type="submit">Add movie</button>

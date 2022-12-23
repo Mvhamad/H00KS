@@ -72,7 +72,7 @@ function App() {
           </label>
           <label>
             Rating <br />
-            <input type="text" name="rating" value={newMovie.rating} onChange={handleNewMovieChange} />
+            <input type="number" name="rating" value={newMovie.rating} onChange={handleNewMovieChange} />
           </label>
           <button type="submit">Add movie</button>
         </form>

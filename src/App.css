@@ -40,10 +40,16 @@ button {
   font-size: larger;
   width: 10rem;
   border-radius: 2rem;
+  margin-left: 40%;
+  margin-top: 2rem;
 }
 
 button:hover {
   cursor: pointer;
   background-color: #fff;
   color: #152238;
+}
+
+form input{
+  width: 40rem;
 }

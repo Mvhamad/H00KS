@@ -1,0 +1,22 @@
+input {
+    width: 25rem;
+    height: 1.7rem;
+    border-radius: 10px;
+    border-color: #000;
+    font-size: larger;
+}
+
+/* .ratingFilter {
+    padding-bottom: 4px;
+} */
+
+select {
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    color: #152238;
+}
+
+label {
+    font-size: larger;
+}

@@ -1,0 +1,19 @@
+
+.card {
+    display: block;
+    width: 300px;
+    margin: 50px;
+    color: #fff;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: #fff 0px 5px 15px;
+}
+
+h3 {
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 350px;
+}

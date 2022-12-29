@@ -43,6 +43,7 @@ function App() {
     event.preventDefault();
     setMovies([...movies, newMovie]);
     setNewMovie({ title: '', posterUrl: '', description: '', rating: '' });
+    Data.push(newMovie)
   };
 
 
@@ -60,19 +61,19 @@ function App() {
         <form onSubmit={handleNewMovieSubmit}>
           <label>
             Title <br />
-             <input type="text" name="title" value={newMovie.title} onChange={handleNewMovieChange} />
+             <input required type="text" name="title" value={newMovie.title} onChange={handleNewMovieChange} />
           </label>
           <label>
             Poster <br />
-            <input type="text" name="posterUrl" value={newMovie.posterUrl} onChange={handleNewMovieChange} />
+            <input required type="text" name="posterUrl" value={newMovie.posterUrl} onChange={handleNewMovieChange} />
           </label>
           <label>
             Description <br />
-            <input type="text" name="description" value={newMovie.description} onChange={handleNewMovieChange} />
+            <input required type="text" name="description" value={newMovie.description} onChange={handleNewMovieChange} />
           </label>
           <label>
             Rating <br />
-            <input type="number" name="rating" value={newMovie.rating} onChange={handleNewMovieChange} />
+            <input required type="number" name="rating" min="1" max="10" value={newMovie.rating} onChange={handleNewMovieChange} />
           </label>
           <button type="submit">Add movie</button>
         </form>

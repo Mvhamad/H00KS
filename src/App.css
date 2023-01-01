@@ -53,3 +53,12 @@ button:hover {
 form input{
   width: 40rem;
 }
+
+textarea{
+  width: 40rem;
+  border-radius: 10px;
+  height: 10rem;
+  font-size: larger;
+  border-width: 2px;
+  border-color: #152238;
+}

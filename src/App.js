@@ -69,7 +69,7 @@ function App() {
           </label>
           <label>
             Description <br />
-            <input required type="text" name="description" value={newMovie.description} onChange={handleNewMovieChange} />
+            <textarea required type="text" name="description" value={newMovie.description} onChange={handleNewMovieChange} />
           </label>
           <label>
             Rating <br />
